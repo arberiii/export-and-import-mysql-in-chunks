@@ -1,5 +1,6 @@
 #!/bin/bash
 
+NO_CHUNKS=1
 echo YOUR_CONNECTION_REMOTELY "<<EOF"
 echo cd PATH_TO_SAVE_CHUNKS
 for i in `seq 1 $NO_CHUNKS`;
