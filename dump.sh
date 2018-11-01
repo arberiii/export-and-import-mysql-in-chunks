@@ -2,7 +2,6 @@
 
 NO_CHUNKS=1
 ROWS_IN_CHUNKS=1
-
 for i in `seq 1 $NO_CHUNKS`;
 do
 	offsetvar=$(($ROWS_IN_CHUNKS*$i-$ROWS_IN_CHUNKS))
