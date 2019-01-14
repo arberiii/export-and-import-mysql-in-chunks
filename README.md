@@ -6,7 +6,7 @@ First you need to check if your command line recognizes mysql command. Then you 
 To run the script you need also make it executable (`chmod a+x dump.sh`).
 
 ### (If necessary) Upload remotely
-Script send_remotely.sh prints out what needs to be done to upload chunks remotely, edit it properly and run `./send_remotely.sh > some_file.sh` , in this way you will have the correct file for uploading then simply make new file executable and run it.
+Script send_remotely.sh prints out what needs to be done to upload chunks remotely, edit it properly and run `./send_remotely.sh > some_file.sh`, in this way you will have the correct file for uploading then simply make new file executable and run it.
 
 ### Import mysql
 To import simply run the script import.sh.
